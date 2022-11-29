@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: roboto;
+}
+
+.voltar {
+    padding: 17px 30px;
+    border: 0;
+    background-color: #1338BE;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   .voltar:hover {
+    letter-spacing: 3px;
+    background-color: #000;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(0 0 0) 0px 7px 29px 0px;
+   }
+   
+   .voltar:active {
+    letter-spacing: 3px;
+    background-color: #000;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+
+   .voltar a {
+    text-decoration: none;
+    padding: 17px 30px;
+    color: #FFF;
+   }
+
+   .voltar a:hover {
+    color: #fff;
+   }
+
+   .botao-voltar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+   }
+
+   .videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px;
+}
